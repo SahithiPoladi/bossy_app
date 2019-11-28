@@ -5,15 +5,19 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "gulp": "gulp",
+    "minify": "gulp minify"
   },
   "author": "Sahithi Poladi",
   "license": "MIT",
   "dependencies": {
+    "async": "^3.1.0",
     "bcryptjs": "^2.4.3",
     "config": "^3.2.4",
     "express": "^4.17.1",
     "express-validator": "^6.3.0",
+    "gulp": "^4.0.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.12",
     "request": "^2.88.0",
@@ -21,7 +25,20 @@
     "swagger-ui-express": "^4.1.2"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "concurrently": "^5.0.0",
-    "nodemon": "^2.0.1"
+    "del": "^2.2.2",
+    "gulp-env": "^0.4.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.2.1",
+    "http-status": "^1.4.1",
+    "mocha": "^2.5.3",
+    "nodemon": "^2.0.1",
+    "run-sequence": "^1.2.2",
+    "sinon": "^7.5.0",
+    "sinon-as-promised": "^4.0.3",
+    "sinon-mongoose": "^2.3.0",
+    "supertest": "^4.0.2",
+    "supertest-as-promised": "^4.0.2"
   }
 }
