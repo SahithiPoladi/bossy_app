@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://boss_app:Indian@boss-kkhtz.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://boss_app:Indian@boss-kkhtz.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
